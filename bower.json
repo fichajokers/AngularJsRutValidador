@@ -7,7 +7,7 @@
       "email": "ficha.villar@gmail.com"
     }
   ],
-  "main": ["dist/plugin-rut-angularjs.js"],
+  "main": ["src/plugin-rut-angularjs.js"],
   "ignore": [
     "src",
     "test",
