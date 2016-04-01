@@ -2,10 +2,10 @@
 ##Plugin desarrollado en AngularJs para validar ruts chilenos
 
 ###### Instalación
-'''
-npm
+```
+bower install
 
-'''
+```
 ###### Funcionamiento
 ###### Configuración
 
