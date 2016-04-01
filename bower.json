@@ -1,0 +1,25 @@
+{
+  "name": "plugin-rut-angularjs",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Matias Villar",
+      "email": "ficha.villar@gmail.com"
+    }
+  ],
+  "main": ["dist/plugin-rut-angularjs.js"],
+  "ignore": [
+    "src",
+    "test",
+    "gulpfile.js",
+    "karma-*.conf.js",
+    "**/.*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "angular-mocks": ">=1.2.0",
+    "angular-scenario": ">=1.2.0",
+    "angular": ">=1.2.0",
+    "angular-resource": ">=1.2.0"
+  }
+}
