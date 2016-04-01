@@ -5,21 +5,22 @@
     {
       "name": "Matias Villar",
       "email": "ficha.villar@gmail.com"
+    },
+    {
+      "name": "Fabian Muñoz",
+      "email": "fabian.m.info@gmail.com"
     }
   ],
-  "main": ["src/plugin-rut-angularjs.js"],
-  "ignore": [
-    "src",
-    "test",
-    "gulpfile.js",
-    "karma-*.conf.js",
-    "**/.*"
+  "keywords": [
+    "angular",
+    "rut",
+    "validar rut",
+    "rut validador",
+    "rut chile"
   ],
-  "dependencies": {},
-  "devDependencies": {
-    "angular-mocks": ">=1.2.0",
-    "angular-scenario": ">=1.2.0",
-    "angular": ">=1.2.0",
-    "angular-resource": ">=1.2.0"
+  "main": "./AngularJsRutValidador.js",
+
+  "dependencies": {
+    "angular": "*"
   }
 }
