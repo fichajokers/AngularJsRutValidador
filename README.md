@@ -1,7 +1,8 @@
 # plugin-Rut-AngularJs
 ##Plugin desarrollado en AngularJs para validar ruts chilenos
 
-###### Instalación
+## Instalación
+ejecutar la siguiente línea de comandos en la ruta de tu pryecto
 ```
 bower install AnguarJsRutValidador
 
@@ -19,7 +20,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ionic.contrib.drawer'
 ######Una vez instalada la libreria se debe incluir el siguiente input, el cual se debe crear una variable mediante ng-model que se llama rutValido, esta servirá para poder almacenar y formatear el rut ingresado por el ususario
 
 ```
- <input type="text" ng-model="rutValido">
+<input type="text" ng-model="rutValido">
 
 ```
 ######Luego se debe colocar una etiqueta <rut> , la cual desplegará un mensaje diciendo si el rut es válido o no.
@@ -27,7 +28,12 @@ angular.module('starter', ['ionic', 'starter.controllers','ionic.contrib.drawer'
 <rut ng-model="rutValido"></rut>
 
 ```
+######La implementacion final deberia quedar de la siguiente forma
+```
+<input type="text" ng-model="rutValido">
+<rut ng-model="rutValido"></rut>
 
+```
 ###### Configuración
 
 
